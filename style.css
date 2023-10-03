@@ -1,6 +1,9 @@
 body {
+  margin: 0;
+  height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: rgb(25, 25, 39);
   color: whitesmoke;
@@ -16,4 +19,5 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: calc(16 * 30px);
+  margin: 12px;
 }
