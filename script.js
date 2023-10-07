@@ -2,8 +2,8 @@ const container = document.querySelector(".container");
 
 for (let i = 0; i < 16 * 16; i++) {
   let div = document.createElement("div");
-  div.style.height = "28px";
-  div.style.width = "28px";
+  div.style.height = "30px";
+  div.style.width = "30px";
   div.classList.add("grid_element");
   div.addEventListener("dragover", function() {
     div.style.backgroundColor = "black";
