@@ -22,8 +22,15 @@ body {
 }
 
 .grid_element {
-  height: 28px;
-  width: 28px;
   background-color: whitesmoke;
-  border: 1px solid black;
+}
+
+button {
+  margin-top: 70px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgba(75, 138, 233, 0.877);
+  color: aliceblue;
 }
