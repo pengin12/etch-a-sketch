@@ -15,9 +15,15 @@ body {
 }
 
 .container {
-  border: 1px solid gray;
   display: flex;
   flex-wrap: wrap;
   width: calc(16 * 30px);
   margin: 12px;
+}
+
+.grid_element {
+  height: 28px;
+  width: 28px;
+  background-color: whitesmoke;
+  border: 1px solid black;
 }
