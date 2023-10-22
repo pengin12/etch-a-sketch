@@ -25,12 +25,30 @@ body {
   background-color: whitesmoke;
 }
 
-button {
-  margin-top: 70px;
+.buttons button,
+.buttons input[type=checkbox] + label {
+  padding: 14px;
+  margin: 70px 10px;
   height: 60px;
+  width: 200px;
   font-size: 20px;
   border-radius: 10px;
   border: 0;
   background-color: rgba(75, 138, 233, 0.877);
   color: aliceblue;
+}
+
+.buttons input[type=checkbox]:checked + label {
+  background-color: firebrick;
+}
+
+.hidden {
+  position: absolute;
+  opacity: 0;
+}
+
+input {
+  width: 168.61px;
+  height: 60px;
+  margin: 70px 10px;
 }
